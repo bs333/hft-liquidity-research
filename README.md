@@ -1,6 +1,6 @@
-﻿## Pinnacle Liquidity Project
+﻿## High-Frequency Trading Liquidity Research
 
-This is the **Pinnacle Liquidity Project** written by **Sid Bhatia** *('24 BSQF, '25 MSML + MSFE)*, **Sid Peri** *('24 BSQF, '25 MSFE)*, and **Sam Friedman** *('25 BSQF)* on *05/25/2023*.
+This a **High-Frequency Trading Liquidity Research Project** written by **Sid Bhatia** *('24 BSQF, '25 MSML + MSFE)*, **Sid Peri** *('24 BSQF, '25 MSFE)*, and **Sam Friedman** *('25 BSQF)* on *05/25/2023*.
 
 Please reach out with any questions via [LinkedIn](https://www.linkedin.com/in/siddharthbhatia555/) or email: [sbhatia2@stevens.edu](mailto:sbhatia2@stevens.edu)/[siddharth.bhatia789@gmail.com](mailto:siddharth.bhatia789@gmail.com).
 
