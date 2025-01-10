@@ -1,6 +1,6 @@
 ﻿## High-Frequency Trading Liquidity Research
 
-This a **High-Frequency Trading Liquidity Research Project** written by **Sid Bhatia** *('24 BSQF, '25 MSML + MSFE)*, **Sid Peri** *('24 BSQF, '25 MSFE)*, and **Sam Friedman** *('25 BSQF)* on *05/25/2023*.
+This **High-Frequency Trading Liquidity Research** written by **Sid Bhatia** *('24 BSQF, '25 MSML + MSFE)*, **Sid Peri** *('24 BSQF, '25 MSFE)*, and **Sam Friedman** *('25 BSQF)* on *05/25/2023*.
 
 Please reach out with any questions via [LinkedIn](https://www.linkedin.com/in/siddharthbhatia555/) or email: [sbhatia2@stevens.edu](mailto:sbhatia2@stevens.edu)/[sid.bhatia789@gmail.com](mailto:sid.bhatia789@gmail.com).
 
