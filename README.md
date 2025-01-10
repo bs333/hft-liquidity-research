@@ -1,16 +1,16 @@
-﻿## High-Frequency Trading Liquidity Research
+﻿# High-Frequency Trading Liquidity Research | Application of Machine Learning Classification
 
 This **High-Frequency Trading Liquidity Research** written by **Sid Bhatia** *('24 BSQF, '25 MSML + MSFE)*, **Sid Peri** *('24 BSQF, '25 MSFE)*, and **Sam Friedman** *('25 BSQF)* on *05/25/2023*.
 
 Please reach out with any questions via [LinkedIn](https://www.linkedin.com/in/siddharthbhatia555/) or email: [sbhatia2@stevens.edu](mailto:sbhatia2@stevens.edu)/[sid.bhatia789@gmail.com](mailto:sid.bhatia789@gmail.com).
 
-### Project Description
+## Project Description
 
 Closely intertwined with the financial markets, liquidity stands as a critical factor of paramount importance. The scarcity of liquidity during trading hours can substantially escalate transaction costs, thereby exerting an adverse impact on the overall stability of the market. Drawing upon existing models, numerous liquidity measures have been derived from diverse market characteristics such as tightness, depth, resiliency, and trading dynamics. In our previous research, we diligently explored measures based on trades and the limit order book, efficiently clustering appropriate liquidity  metrics, and effectively identifying extreme tail events.
 
 Building upon our previous efforts, this proposed research endeavors to advance further by developing a robust framework to analyze liquidity using High-Frequency Trading (HFT) data. The core objective of this study is to unravel invaluable insights and knowledge across various domains, encompassing the recognition and regulation of liquidity risk, the formulation of statistical machine learning models grounded in liquidity analysis, and the provision of alternative inputs for the thorough examination of financial networks.
 
-### Track 1:
+## Track 1:
 
 Use limit order book datasets to construct predictive models for the price movement. We will use high-frequency data provided by Refinitiv Tick History Dataset.
 
@@ -19,7 +19,7 @@ Use limit order book datasets to construct predictive models for the price movem
 - Calculate liquidity measures.
 - Construct predictive models (statistical and/or machine learning).
 
-### Methodology and Data
+## Methodology and Data
 
 The goal of this project is to use the TAQ data to calculate liquidity measures and use these liquidity measures in a predictive model for price movements. The main dependent variable we are looking to predict is calculated from the Trade price in the TAQ data. 
 
@@ -41,7 +41,7 @@ The end goal will be to create a model that uses liquidity measures to accuratel
 
 Ideally, we would like to find a consistent subset of liquidity metrics that have high explanatory power for all models on our data. From the sample data, we will be creating our model for March 14, 2022 for CVX.
 
-### Model Background and Implementation
+## Model Background and Implementation
 
 We first filtered the TAQ data to only include rows with a timestamp between 11:00 AM and 4:00 PM. We then further subset this data to include entries
 in 1 minute intervals. 
@@ -90,7 +90,7 @@ The SVM feature importance is based on the magnitude of the feature coefficients
 
 From doing this Feature Importance Analysis, we look to gauge if any specific features show consistent importance across models, indicating that they could have high predictive power for return direction.
 
-### Results
+## Results
 
 The following results (see code) show the confusion matrix and accuracy for our 3 models with the baseline features, subset selection features, and Feature Importance selected features. 
 
@@ -100,7 +100,7 @@ Some takeaways from these results are the high accuracy of the baseline models r
 
 From the feature importance, we see some interesting results. The metrics: Liquidity Ratio, Flow Ratio, and Turnover all appeared to be consistently important for all models. These metrics had the largest feature importance which would indicate they were most influential in the predictions.
 
-### Conclusion
+## Conclusion
 
 Through our research we have presented an advanced framework for liquidity analysis, highlighting the crucial role of liquidity in the financial markets and its potential to influence transaction costs and market stability. We have expanded our knowledge related to identifying and regulating liquidity risk and statistical model formulation grounded in liquidity analysis.
 
@@ -110,7 +110,7 @@ In some way, this could be due to the nature of predicting at very small interva
 
 This suggests that changes in these measures can lead to significant alterations in the prediction outcomes, implicating their importance as a determinant of liquidity. The next step for this project would be to apply these liquidity metrics to different stock data to see if consistent results are achieved in terms of accuracy and feature importance.
 
-### References:
+## References:
 
 - "A Study on Brexit: Correlations and Tail Events Distribution of Liquidity Measures", M. Kong, A. Salighehdar and D. Bozdog, Journal of Management Science and Business Intelligence (JMSBI), Vol. 3, No. 1, July 2018.
 - "Detection of Rare Events in Multidimensional Financial Datasets with Zonoid Depth Functions", P. Golbayani and D. Bozdog, IEEE Symposium Series on Computational Intelligence (SSCI), pg. 1-6, 2017.
